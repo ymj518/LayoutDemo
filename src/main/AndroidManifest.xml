@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".TabBarActivity"></activity>
         <activity android:name=".ToastLayoutActivity" />
-        <activity android:name=".CalculatorActivity"></activity>
+        <activity android:name=".CalculatorActivity" />
         <activity android:name=".CalculatorLayoutActivity" />
         <activity android:name=".TableLayoutActivity" />
         <activity android:name=".RelativeLayoutActivity" />

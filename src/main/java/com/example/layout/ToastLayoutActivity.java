@@ -103,7 +103,7 @@ implements View.OnClickListener{
             Toast.makeText(ToastLayoutActivity.this,info,Toast.LENGTH_LONG).show();
 
             //转跳到主页面
-            Intent intent = new Intent(ToastLayoutActivity.this, MainActivity.class);
+            Intent intent = new Intent(ToastLayoutActivity.this, TabBarActivity.class);
             startActivity(intent);
         }
 
